@@ -1,0 +1,225 @@
+/* <!-- HTML !-->
+<button class="button-17" role="button">Button 17</button> */
+
+
+body {
+    background-color: rgba(78, 143, 143, 0.664);
+}
+h2,h1, h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+  border-color: #000000;
+  box-shadow: 0 1px 3px black;
+}
+
+.seasonsWrapper{
+  /* temp */
+  margin: 10px;
+  position: absolute;
+  top: 0px;
+  left: 800px;
+  
+  /* *** */
+  display: inline-block;
+  width: 300px;
+  background-color: #c8bfaa;
+font-family: 'Georgia', serif;
+    color: #1e1a03; 
+    background-color: #439d34a8;
+    padding: 15px 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+     
+    box-sizing: border-box; 
+    width: fit-content; 
+  
+}
+.season{
+
+  margin: 5px;
+  display: inline-block;
+  width: 300px;
+  background-color: #F3E9D2;
+font-family: 'Georgia', serif;
+    color: #1e1a03; 
+    background-color: #F3E9D2; 
+    padding: 15px 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    
+    box-sizing: border-box; 
+    width: fit-content; 
+
+  
+}
+.season.spring{
+ background-color: #b6ef5d; 
+}
+.season.summer{
+  background-color: #efef5c;
+  
+}
+.season.autumn{
+
+  background-color: burlywood;
+  
+}
+.season.winter{
+  background-color: #2aa3a3;
+
+}
+
+.scoreboard h2{
+    margin: 1 1 0 0;
+    color: #174254;
+    font-size: small;
+}
+.scoreboard {
+    border: 1px solid #f7e28f; /* Light grey border */
+    box-shadow: 0 15px 5px rgba(0, 0, 0, 0.712); /* Subtle shadow */
+    background-color: #6bb758; /* White background */
+    padding: 20px; /* Spacing inside the card */
+    margin: 10px; /* Spacing outside the card */
+    border-radius: 8px; /* Rounded corners */
+    width: 300px; /* Fixed width, you can adjust this */
+    text-align: center; /* Centering the text */
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+.pickerWrapperDiv{
+    width: 200px;
+    display: flex;
+        width: 200px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+}
+.pickerWrapperDiv p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:0cm;
+}
+.pickerTable{
+    border-radius: 13px;
+    padding: 10px;
+    /* background-color: antiquewhite; */
+    /* width: 100%; */
+    /* height: 100%; */
+    width: 200px;
+    height: 200px;
+}
+.picker{
+    background-color: antiquewhite;
+
+}
+/* .missions {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: #9F7F67;
+    top: 300px;
+    left: auto;
+} */
+
+
+.missionContainer {
+  display: inline-block;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 700px; /* Adjust as needed */
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #5a3e36c3;
+  position: absolute;
+  top:350px;
+  left: auto;
+}
+
+.missions {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.missionContainer.mission {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #ddd; /* Adjust or remove as needed */
+}
+
+/* Add more styling as needed */
+.minimalist-button {
+    margin: 5px;
+  background-color: #903204; 
+  color: #ffffff; 
+  border: 1px solid #CCCCCC; 
+  border-radius: 10px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-family: Arial, sans-serif; 
+  text-align: center;
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.minimalist-button:hover,
+.minimalist-button:focus {
+  background-color: #fddea3; 
+  color: #000000; 
+  border-color: #BBBBBB; 
+  outline: none; 
+}
+
+/* .minimalist-button:active {
+  background-color: #E6E6E6; 
+  border-color: #AAAAAA;
+}
+
+.minimalist-button:disabled {
+  background-color: #EEEEEE;
+  color: #AAAAAA; 
+  cursor: not-allowed; 
+  border-color: #DDDDDD;
+} */
+
+
+/* .time-elapsed {
+    font-family: 'Press Start 2P', cursive; 
+    color: #FFFFFF; 
+    background-color: #0000FF; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    text-align: center; 
+    margin: 20px auto; 
+    width: fit-content; 
+    border: 2px solid #FFFF00; 
+    box-sizing: border-box; 
+} */
+/* 
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+} */
+.time-elapsed{
+font-family: 'Georgia', serif;
+    color: #5A3E36; 
+    background-color: #F3E9D2; 
+    padding: 15px 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    border: 2px solid #C9B6A9; 
+    box-sizing: border-box; 
+    width: fit-content; 
+    height: 150px;
+    /* background-image: url('./assets/DALL·E\ 2023-11-14\ 04.13.42\ -\ A\ minimal\ cottagecore\ floral\ pattern\,\ featuring\ small\,\ delicate\ flowers\ like\ daisies\,\ lavender\,\ and\ baby\'s\ breath\,\ interspersed\ with\ soft\ green\ leaves.png');  */
+    background-size: cover; 
+    /* margin: 20px auto; Center the div horizontally */
+}
